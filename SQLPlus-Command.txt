@@ -1,0 +1,8 @@
+SELECT last_name AS name, commission_pct comm
+FROM employees
+
+SELECT last_name "Name", salary*12 "Annual Salary"
+FROM employees
+
+SELECT last_name ||' is a '||job_id
+FROM employees
